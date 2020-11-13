@@ -1,3 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+*{margin: 0px;padding: 0px;}
 
+body{font-family: 'Montserrat', sans-serif;}
 
+li{list-style-type: none;display: inline-block}
+a{text-decoration: none;}
 
+.header_area{padding: 30px 0px;overflow:hidden;}
+.container{width: 1200px;padding: 0px 30px;margin: 0px auto;}
+.logo{float: left;width: 20%;}
+.foremail{float: left;width: 25%;}
+.foremail .left{float: left;width: 15%;}
+.foremail .left i{border: 1px solid gray;padding: 10px;border-radius: 30px;font-size: 20px;}
+.foremail .right{float: left;width: 85%;}
+.foremail .right h4{font-weight: 600;padding-left: 10px;margin-top: 3px; color: black;}
+.foremail .right a{margin-left: 10px;margin-top: 3px;font-size: 15px;color: gray;font-weight: 400;}
+.forphone{float: left;width: 25%;}
+.forphone .left{float: left;width: 15%;}
+.forphone .left i{border: 1px solid gray;padding: 10px;border-radius: 30px;font-size: 20px;}
+.forphone .right{float: left;width: 85%;}
+.forphone .right h4{font-weight: 600;padding-left: 10px;margin-top: 3px; color: black;}
+.forphone .right a{margin-left: 10px;margin-top: 3px;font-size: 15px;color: gray;font-weight: 400;}
+.forsocial{float: left;width: 30%;}
+.forsocial ul{float: right;display: flex;align-items: center;margin-top: 10px;} 
+.forsocial ul li{} 
+.forsocial ul li a{font-size: 28px;color: gray;display: block;margin-left: 3px;transition: .3s;} 
+.forsocial ul li.reglog a{transition: .3s;font-size: 16px; margin-left: 10px;background:#157cb8d6 ;padding: 5px 20px;color: white;border-radius: 5px;font-weight: 600;} 
+.forsocial ul li a:hover{color: #157CB8;} 
+.forsocial ul li.reglog a:hover{background: #157CB8;color: white;} 
