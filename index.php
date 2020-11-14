@@ -88,6 +88,15 @@
         </div>
     </nav>
 
+    <div class="slider">
+        <div class="container">
+            <div class="content">
+                <h1>FIND THE RIGHT CAR FOR YOU.</h1>
+                <p>We have more than a thousand cars for you to choose.</p>
+                <a href="#">Read More <i class="fas fa-arrow-circle-right"></i></a>
+            </div>
+        </div>
+    </div>
     <!--  ======================= End Header Area ============================== -->
 
 

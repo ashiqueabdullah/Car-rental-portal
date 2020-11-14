@@ -48,3 +48,10 @@ a{text-decoration: none;display: block;}
 .mynav .right_menu{width: 15%;}
 .mynav .right_menu form{float: right;}
 .mynav .right_menu input{padding: 10px;border-radius: 5px;border:none;}
+
+
+.slider{background-image: url('../img/banner-image.jpg');background-repeat: no-repeat;height: 600px;background-size: cover ;}
+.content{margin-left: 65%;width: 35%;}
+.content h1{color: white;font-weight: 600;font-size: 40px;margin-top: 65%;}
+.content p{font-size: 25px;font-weight: 400;color: white;margin: 5px 0px;}
+.content a{margin-top: 15px; background-color: #157CB8;padding:15px 20px;width: 150px;text-align: center;color: white;border-radius: 5px;font-size: 20px;}
