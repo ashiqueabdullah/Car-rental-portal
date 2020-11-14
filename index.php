@@ -153,6 +153,32 @@ include_once "header.php";
         </div>
     </div>
 </div>
+
+
+<div class="coundown">
+    <div class="container">
+        <div class="coundownBox">
+            <i class="fas fa-calendar-alt"></i>
+            <h3 id="first"></h3>
+            <p>Years In Business</p>
+        </div>
+        <div class="coundownBox">
+            <i class="fas fa-car"></i>
+            <h3 id="second">1200+</h3>
+            <p>New Cars For Sale</p>
+        </div>
+        <div class="coundownBox">
+            <i class="fas fa-car"></i>
+            <h3 id="third">700+</h3>
+            <p>Used Cars For Sale</p>
+        </div>
+        <div class="coundownBox mycnbox">
+            <i class="far fa-user"></i>
+            <h3 id="fourth">600+</h3>
+            <p>Satisfied Customers</p>
+        </div>
+    </div>
+</div>
 <!--  ======================= End Find car Area ============================== -->
 <?php
 include_once "footer.php"
