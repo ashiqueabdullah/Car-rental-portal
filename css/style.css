@@ -3,11 +3,12 @@
 
 body{font-family: 'Montserrat', sans-serif;}
 
-li{list-style-type: none;display: inline-block}
-a{text-decoration: none;}
+li{list-style-type: none;display: inline-block;margin:0px;padding: 0px;}
+a{text-decoration: none;display: block;}
 
-.header_area{padding: 30px 0px;overflow:hidden;}
-.container{width: 1200px;padding: 0px 30px;margin: 0px auto;}
+
+.header_area{padding: 30px 0px;overflow:hidden;background: white;}
+.container{width: 1200px;padding: 0px 30px;margin: 0px auto;display: flex; flex-wrap: wrap;align-items: center;}
 .logo{float: left;width: 20%;}
 .foremail{float: left;width: 25%;}
 .foremail .left{float: left;width: 15%;}
@@ -24,7 +25,26 @@ a{text-decoration: none;}
 .forsocial{float: left;width: 30%;}
 .forsocial ul{float: right;display: flex;align-items: center;margin-top: 10px;} 
 .forsocial ul li{} 
-.forsocial ul li a{font-size: 28px;color: gray;display: block;margin-left: 3px;transition: .3s;} 
+.forsocial ul li a{font-size: 28px;color: gray;margin-left: 3px;transition: .3s;} 
 .forsocial ul li.reglog a{transition: .3s;font-size: 16px; margin-left: 10px;background:#157cb8d6 ;padding: 5px 20px;color: white;border-radius: 5px;font-weight: 600;} 
 .forsocial ul li a:hover{color: #157CB8;} 
 .forsocial ul li.reglog a:hover{background: #157CB8;color: white;} 
+
+
+.mynav{background: black;}
+.mynav .left_menu{width: 80%;}
+.mynav .left_menu ul{}
+.mynav .left_menu ul li{}
+.mynav .left_menu ul li a{margin-left: -4px; margin-right: 0px; color: white;font-size: 20px;font-weight: 600;padding:15px 20px;text-transform: uppercase;transition: .5s;}
+.mynav .left_menu ul li a:hover , .active{background:#157CB8;}
+.mynav .middle_menu{width: 5%;}
+.mynav .middle_menu img{width: 40px;border-radius: 150px;border: 2px solid  #157CB8;cursor: pointer;margin-top: 3px;}
+.mynav .middle_menu ul {position: relative;}
+.mynav .middle_menu ul li ul{position: absolute;background: black;width: 120px;padding:10px;border-radius: 3px;display: none;}
+.mynav .middle_menu ul li ul li{display: block;}
+.mynav .middle_menu ul li ul li a{display: block;color: white;font-weight: 400;font-size: 16px;padding: 6px 0px;transition: .5s;}
+.mynav .middle_menu li:hover ul{display: block;}
+.mynav .middle_menu li ul li a:hover{background: white;color:  #157CB8;padding-left: 10px;border-radius: 5px;}
+.mynav .right_menu{width: 15%;}
+.mynav .right_menu form{float: right;}
+.mynav .right_menu input{padding: 10px;border-radius: 5px;border:none;}

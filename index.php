@@ -58,6 +58,36 @@
     </div>
 
 
+    <nav class="mynav">
+        <div class="container"> 
+            <div class="left_menu">
+                <ul>
+                    <li><a class="active" href="#">Home</a></li>
+                    <li><a href="#">Car List</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Faqs</a></li>
+                </ul>
+            </div>
+            <div class="middle_menu">
+                <ul>
+                    <li><img src="img/comment-author-1.jpg"  alt="">
+                        <ul>
+                            <li><a href="#">Profile</a></li>
+                            <li><a href="#">My Booking</a></li>
+                            <li><a href="#">Sign Out</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="right_menu">
+                <form action="">
+                    <input type="text" placeholder="Search....">
+                </form>
+            </div>
+        </div>
+    </nav>
+
     <!--  ======================= End Header Area ============================== -->
 
 
