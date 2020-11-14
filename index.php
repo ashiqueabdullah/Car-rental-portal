@@ -153,8 +153,6 @@ include_once "header.php";
         </div>
     </div>
 </div>
-
-
 <div class="coundown">
     <div class="container">
         <div class="coundownBox">
@@ -176,6 +174,35 @@ include_once "header.php";
             <i class="far fa-user"></i>
             <h3 id="fourth">600+</h3>
             <p>Satisfied Customers</p>
+        </div>
+    </div>
+</div>
+
+
+<div class="subscrive">
+    <div class="container">
+        <h1>SUBSCRIBE NEWSLETTER</h1>
+        <form action="">
+            <input type="text">
+            <input type="submit">
+        </form>
+    </div>
+</div>
+
+<div class="footer">
+    <div class="container">
+        <div class="left">
+            <p>Copyright © 2017 Car Rental Portal. Brought To You By <span>DeveloperThrill</span></p>
+        </div>
+        <div class="right">
+            <ul>
+                <li>Connect with Us:</li>
+                <li><a href="#"> <i class="fab fa-facebook-square"></i></a></li>
+                <li><a href="#"> <i class="fab fa-twitter-square"></i></a></li>
+                <li><a href="#"> <i class="fab fa-linkedin"></i></a></li>
+                <li><a href="#"> <i class="fab fa-instagram-square"></i></a></li>
+                <li><a href="#"> <i class="fab fa-google-plus-square"></i></a></li>
+            </ul>
         </div>
     </div>
 </div>
