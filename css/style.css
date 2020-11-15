@@ -6,9 +6,12 @@ body{font-family: 'Montserrat', sans-serif;}
 li{list-style-type: none;display: inline-block;margin:0px;padding: 0px;}
 a{text-decoration: none;display: block;}
 
+/*------------------Home page CSS start-----------------------------------*/
 
 .header_area{padding: 30px 0px;overflow:hidden;background: white;}
 .container{width: 1200px;padding: 0px 30px;margin: 0px auto;display: flex; flex-wrap: wrap;align-items: center;}
+.container2{width: 1200px;padding: 0px 30px;margin: 0px auto;display: flex; flex-wrap: wrap;}
+.container3{width: 1200px;padding: 0px 30px;margin: 0px auto;}
 .logo{float: left;width: 20%;}
 .foremail{float: left;width: 25%;}
 .foremail .left{float: left;width: 15%;}
@@ -110,3 +113,42 @@ a{text-decoration: none;display: block;}
 .footer .right ul li{color: white; font-size: 16px;}
 .footer .right ul li:first-child{margin-right: 15px;}
 .footer .right ul li a{color: white; font-size: 16px;}
+
+/*------------------Home page CSS End-----------------------------------*/
+/*------------------Car list page CSS Start-----------------------------------*/
+
+.carHero{padding: 80px 0px;text-align: center;background-image: url('../img/listing-page-header-img.jpg');background-size: cover;background-repeat: no-repeat;position: relative;z-index: 1;}
+.carHero .contentss{z-index: 100;}
+.carHero:before{width: 100%;height: 100%;background-color: rgba(0, 0, 0, .5);content:"";left: 0;top: 0;position: absolute;z-index: 10;}
+.carHero .contentss h1{color: white;}
+.carHero .contentss p{color: white;}
+.carList{padding: 80px 0px;}
+.carList .leftSide{float: left;width: 22%;}
+.carList .leftSide .leftTopBox{border:1px solid #80808033;text-align: center;padding: 20px 10px;border-radius: 5px;width: 100%;}
+.carList .leftSide .leftTopBox h1{font-size: 20px;margin-bottom: 5px;font-weight: 600;color: #808080ad;text-align: left;margin-bottom: 10px;}
+.carList .leftSide .leftTopBox i{font-size: 26px;color: #157CB8;}
+.carList .leftSide .leftTopBox select{width: 100%;padding: 8px 5px;font-size: 16px;margin-bottom: 10px;background-color: #EEEEEE;color: gray;border-radius: 5px;}
+.carList .leftSide .leftTopBox input[type='submit']{width: 100%;background-color: #157CB8;border: 1px solid blue;padding: 8px 5px;border-radius: 5px;color: white;font-size: 18px;}
+.carList .leftSide .leftBottomBox{width: 100%; border:1px solid #80808033;text-align: center;padding: 20px 10px;border-radius: 5px;margin-top: 20px;}
+.carList .leftSide .leftBottomBox .main{background-color: #EEEEEE;padding: 10px;height: 32px;border-radius: 5px;box-shadow: 4px 3px 5px #80808085;margin-bottom: 10px;}
+.carList .leftSide .leftBottomBox h1{font-size: 20px;margin-bottom: 5px;font-weight: 600;color: #808080ad;text-align: left;margin-bottom: 10px;}
+.carList .leftSide .leftBottomBox .left{float: left;width: 35%;height: auto;}
+.carList .leftSide .leftBottomBox .left img{width: 60px;text-align: left;}
+.carList .leftSide .leftBottomBox .right{float: left;width: 65%;height: auto;text-align: left;}
+.carList .leftSide .leftBottomBox .right a{font-size: 16px;color: black;font-weight: 600;}
+.carList .leftSide .leftBottomBox .right p{color: gray;font-size: 13px;}
+.carList .rightSide{float: right;width: 72%;margin-left: 60px;}
+.carList .rightSide .rightTop{background-color:#F5F5F5;padding: 10px;border-left: 4px solid #CECECE;border-bottom: 4px solid #CECECE; }
+.carList .rightSide .rightTop h1{color: black;font-size: 20px;}
+
+
+
+.carList .rightSide  .carMainBox{background-color: #EEEEEE;margin-top: 20px;height: 270px;width: 100%;}
+.carList .rightSide  .carMainBox img{width: 100%;}
+.carList .rightSide  .carMainBox .left{width: 50%;float: left;}
+.carList .rightSide  .carMainBox .right{width: 50%;float: left;}
+.carList .rightSide  .carMainBox .right a{color: black;font-weight: 600;font-size: 30px;padding-left: 20px;padding-top: 10px;}
+.carList .rightSide  .carMainBox .right p{color: gray;padding-left: 20px;margin-top: 10px;}
+.carList .rightSide  .carMainBox .right ul{margin-left: 20px;margin-top: 10px;}
+.carList .rightSide  .carMainBox .right a.btn{background-color:#157CB8;width: 50%; margin-left: 20px;color:white;margin-top: 60px;padding: 5px;text-align: center;border-radius: 5px;}
+/*------------------Car list page CSS End-----------------------------------*/
